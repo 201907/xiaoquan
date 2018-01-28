@@ -12,7 +12,7 @@ body{
     margin:0 auto;
     background-color:rgba(255,255,255,0.5);
     border-radius:5px;
-    width:80%;
+    width:1080px;
     padding:8px;
     overflow:hidden;
 }
@@ -42,8 +42,8 @@ body{
 ul#images li{
     list-style:none;
     float:left;
-    width:15.5%;
-    height:30%;
+    width:167px;
+    height:167px;
     cursor: url("../images/bitbug_favicon.ico"),auto;
     margin:5px;
     border-radius:5px;
