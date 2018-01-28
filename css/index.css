@@ -6,7 +6,7 @@ body,p,div,section,header,footer,span,ul,li{
 body{
     width:1280px;
     background:url("../images/beibei2.jpg") no-repeat 0 0;
-    background-size:cover;
+    background-size:contain;
 }
 
 #body{
