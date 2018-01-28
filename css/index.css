@@ -1,4 +1,4 @@
-﻿body,p,div,section,header,footer,span,ul,li{
+body,p,div,section,header,footer,span,ul,li{
 	margin:0;
 	padding:0;
 }
@@ -9,12 +9,12 @@ body{
 }
 
 #body{
-    overflow:hidden;
     margin:0 auto;
     background-color:rgba(255,255,255,0.5);
     border-radius:5px;
-    width:1080px;
+    width:80%;
     padding:8px;
+    overflow:hidden;
 }
 
 #body>p{
@@ -42,8 +42,8 @@ body{
 ul#images li{
     list-style:none;
     float:left;
-    width:167px;
-    height:167px;
+    width:15.5%;
+    height:30%;
     cursor: url("../images/bitbug_favicon.ico"),auto;
     margin:5px;
     border-radius:5px;
