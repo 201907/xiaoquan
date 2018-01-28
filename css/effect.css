@@ -1,0 +1,88 @@
+div,img{
+	margin:0px;
+	padding:0px;
+}
+.sakura{
+	position:absolute;
+	height:0px;
+	width:0px;
+	border:10px solid pink;
+	border-radius:80%;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+}
+.sakura:after{
+	top:-7px;
+	left:-7px;
+	content:"";
+	display:block;
+	position:absolute;
+	border:10px solid pink;
+	border-radius:80%;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;	
+	transform:rotate(15deg);
+	-webkit-transform:rotate(15deg);
+	-o-transform:rotate(15deg);
+	-ms-transform:rotate(15deg);
+}
+.type1{-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);}
+.type2{-webkit-transform: rotate(60deg);-ms-transform: rotate(60deg);transform: rotate(60deg);}
+.type3{-webkit-transform: rotate(120deg);-ms-transform: rotate(120deg);transform: rotate(120deg);}
+.type4{-webkit-transform: rotate(180deg);-ms-transform: rotate(180deg);transform: rotate(180deg);}
+.type5{-webkit-transform: rotate(240deg);-ms-transform: rotate(240deg);transform: rotate(240deg);}
+.type6{-webkit-transform: rotate(300deg);-ms-transform: rotate(300deg);transform: rotate(300deg);}
+.types1{-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}
+.types2{-webkit-transform: scale(.9);-ms-transform: scale(.9);transform: scale(.9);}
+.types3{-webkit-transform: scale(.8);-ms-transform: scale(.8);transform: scale(.8);}
+.types4{-webkit-transform: scale(.7);-ms-transform: scale(.7);transform: scale(.7);}
+.types5{-webkit-transform: scale(.6);-ms-transform: scale(.6);transform: scale(.6);}
+.types6{-webkit-transform: scale(.5);-ms-transform: scale(.5);transform: scale(.5);}
+.typec1{border-color:#ffecf7;}
+.typec2{border-color:#ffdbf0;}
+.typec3{border-color:#febae2;}
+.typec4{border-color:#fea9db;}
+.typec5{border-color:#fd77c6;}
+.typec6{border-color:#fd66bf;}
+.typec1::after{border-color:#ffecf7;}
+.typec2::after{border-color:#ffdbf0;}
+.typec3::after{border-color:#febae2;}
+.typec4::after{border-color:#fea9db;}
+.typec5::after{border-color:#fd77c6;}
+.typec6::after{border-color:#fd66bf;}
+.typea1{animation:v1 6s infinite;}
+.typea2{animation:v2 6s infinite;}
+.typea3{animation:v2 5s infinite;}
+.typea4{animation:v2 5s infinite;}
+.typea5{animation:v2 4s infinite;}
+.typea6{animation:v2 4s infinite;}
+@keyframes v1{
+	from{transform: rotate(0deg);}
+	50%{transform: rotate(270deg);}
+	to{transform: rotate(1deg);}
+}
+@keyframes v2{
+	from{transform: rotate(-90deg);}
+	50%{transform: rotate(-360deg);}
+	to{transform: rotate(-89deg);}
+}
+@keyframes v3{
+	from{transform: rotate(0deg);}
+	50%{transform: rotate(270deg);}
+	to{transform: rotate(1deg);}
+}
+@keyframes v4{
+	from{transform: rotate(-90deg);}
+	50%{transform: rotate(-360deg);}
+	to{transform: rotate(-89deg);}
+}
+@keyframes v5{
+	from{transform: rotate(0deg);}
+	50%{transform: rotate(270deg);}
+	to{transform: rotate(1deg);}
+}
+@keyframes v6{
+	from{transform: rotate(-90deg);}
+	50%{transform: rotate(-360deg);}
+	to{transform: rotate(-89deg);}
+}

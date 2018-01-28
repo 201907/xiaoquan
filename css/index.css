@@ -1,0 +1,128 @@
+﻿body,p,div,section,header,footer,span,ul,li{
+	margin:0;
+	padding:0;
+}
+
+body{
+    background:url("../images/beibei2.jpg") no-repeat 0 0;
+    background-size:cover;
+}
+
+#body{
+    margin:0 auto;
+    background-color:rgba(255,255,255,0.5);
+    border-radius:5px;
+    width:1080px;
+    padding:8px;
+}
+
+#body>p{
+    cursor:default;
+    margin-bottom:10px;
+}
+
+#body>p>span:first-of-type{
+    font-size:25px;
+    font-weight:600;
+    color:#616161;
+    vertical-align: middle; 
+    margin-right:50px;
+}
+#body>p>span:nth-of-type(2){
+    vertical-align: middle; 
+    display:inline-block;
+    width:250px;
+}
+#body>p>audio{
+    float:right;
+    vertical-align: buttom; 
+}
+
+ul#images li{
+    list-style:none;
+    float:left;
+    width:167px;
+    height:167px;
+    cursor: url("../images/bitbug_favicon.ico"),auto;
+    margin:5px;
+    border-radius:5px;
+    text-align:center;
+    color:red;
+    font-weight:600;
+}
+
+ul#images li:hover{
+    opacity:0.4;
+}
+
+.selected{
+    border:2px;
+    border-color:red;
+}
+
+ul#images:after{
+    content:"";
+    clear:both;
+    height:0px;
+    display:block;
+}
+
+#kugua{
+    background:url("../images/kugua.jpg") no-repeat 0 0;
+    background-size:cover;
+}
+
+#EttaJames{
+    background:url("../images/Etta James - I'd Rather Go Blind.jpg") no-repeat 0 0;
+    background-size:cover;   
+}
+
+#putaochengshu{
+    background:url("../images/putaochengshu.jpg") no-repeat 0 0;
+    background-size:cover;     
+}
+
+#xiongdi{
+    background:url("../images/xiongdi.jpg") no-repeat 0 0;
+    background-size:cover;     
+}
+
+#pianpianxihuanni{
+    background:url("../images/canghaiyishengxiao.jpg") no-repeat 0 0;
+    background-size:cover;      
+}
+
+#suiyue{
+    background:url("../images/suiyue.jpg") no-repeat 0 0;
+    background-size:cover;       
+}
+
+#burubujian{
+    background:url("../images/burubujian.jpg") no-repeat 0 0;
+    background-size:cover;     
+}
+
+#dengniaiwo{
+    background:url("../images/dengniaiwo.jpg") no-repeat 0 0;
+    background-size:cover;        
+}
+
+#shimian{
+    background:url("../images/shimian.jpg") no-repeat 0 0;
+    background-size:cover;    
+}
+
+#yaoyuan{
+    background:url("../images/yaoyuan.jpg") no-repeat 0 0;
+    background-size:cover;    
+}
+
+#xiangyu{
+    background:url("../images/xiangyu.jpg") no-repeat 0 0;
+    background-size:cover;    
+}
+
+#deapai{
+    background:url("../images/deapai.jpg") no-repeat 0 0;
+    background-size:cover;    
+}
